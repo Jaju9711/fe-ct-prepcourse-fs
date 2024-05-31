@@ -5,6 +5,9 @@ function areaDelTriangulo(base, altura) {
   // 10, 5 ---> 25
   // 0, 10 ---> 0
   // Tu código:
+
+  areaT = (base * altura)/2;
+  return areaT; 
 }
 
 module.exports = areaDelTriangulo;
